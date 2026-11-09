@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Mahdieh Kargar — Resume</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Estedad:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1c1714; --accent:#6e1423; --muted:#75675c; --line:#e2d5c4; --bg:#fdfaf4;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:#e9e2d8;
+    color:var(--ink);
+    font-family:'Estedad',Tahoma,system-ui,sans-serif;
+    font-size:10pt;
+    line-height:1.65;
+    -webkit-print-color-adjust:exact;
+    print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm;
+    padding:15mm 17mm;
+    background:var(--bg);
+    margin:0 auto 10mm;
+    box-shadow:0 18px 50px -20px rgba(60,30,25,.45);
+    position:relative;
+    overflow:hidden;
+  }
+  .page[dir="rtl"]{font-family:'Estedad',Tahoma,sans-serif}
+  .name{
+    font-family:'Playfair Display',Georgia,serif;
+    font-size:34pt; line-height:1.02; letter-spacing:-.01em; margin:0;
+  }
+  .page[dir="rtl"] .name{font-family:'Estedad',sans-serif;font-weight:800;font-size:30pt}
+  .role{
+    font-family:'Playfair Display',Georgia,serif;
+    font-style:italic; color:var(--accent); font-size:15pt; margin:3px 0 0;
+  }
+  .page[dir="rtl"] .role{font-family:'Estedad',sans-serif;font-style:normal;font-weight:600;font-size:12.5pt}
+  .contact{
+    margin-top:8px; color:var(--muted); font-size:8.4pt;
+    display:flex; flex-wrap:wrap; gap:4px 14px;
+  }
+  .contact span{white-space:nowrap}
+  .rule{height:1px;background:var(--line);margin:14px 0 0}
+  h2{
+    font-size:8.6pt; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--accent); margin:16px 0 7px; font-weight:700;
+    display:flex; align-items:center; gap:8px;
+  }
+  h2::after{content:"";height:1px;flex:1;background:var(--line)}
+  p{margin:0 0 6px}
+  .muted{color:var(--muted)}
+  .chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:4px}
+  .chip{
+    border:1px solid var(--line); border-radius:999px;
+    padding:2.5px 9px; font-size:8.4pt; color:#3a302a;
+  }
+  .job{margin-bottom:9px; padding-inline-start:10px; border-inline-start:2px solid rgba(110,20,35,.22)}
+  .job-head{display:flex; justify-content:space-between; gap:10px; align-items:baseline}
+  .job-title{font-weight:700; font-size:10.2pt}
+  .job-meta{color:var(--muted); font-size:8.2pt; white-space:nowrap}
+  .job p{margin:2px 0 0; color:var(--muted); font-size:9.2pt}
+  .stack{color:var(--accent); font-size:8.4pt; margin-top:2px}
+  a{color:var(--muted); text-decoration:none; border-bottom:1px solid var(--line)}
+  .foot{
+    position:absolute; bottom:10mm; left:17mm; right:17mm;
+    border-top:1px solid var(--line); padding-top:6px;
+    display:flex; justify-content:space-between;
+    color:var(--muted); font-size:7.8pt;
+  }
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:6px 26px}
+  .label{color:var(--muted);font-size:8.2pt;letter-spacing:.08em;text-transform:uppercase}
+  @media print{
+    @page{size:A4;margin:0}
+    body{background:#fff}
+    .page{margin:0;box-shadow:none;page-break-after:always}
+    .page:last-child{page-break-after:auto}
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ ENGLISH ============ -->
+<section class="page" lang="en" dir="ltr">
+  <h1 class="name">Mahdieh Kargar</h1>
+  <div class="role">Front-End Developer</div>
+  <div class="contact">
+    <span>mahdiehkargar410540@gmail.com</span>
+    <span>Iran</span>
+    <span>github.com/mahdiiehka</span>
+    <span>instagram.com/mahdiiehka_</span>
+    <span>t.me/Mahdiieh_ka</span>
+  </div>
+  <div class="rule"></div>
+
+  <h2>Profile</h2>
+  <p>
+    Front-end developer focused on React, Next.js and TypeScript. I've built an
+    API-driven online store, authentication forms and a corporate website — with a
+    constant focus on performance, accessibility and interface detail.
+  </p>
+
+  <h2>Skills</h2>
+  <div class="chips">
+    <span class="chip">HTML</span><span class="chip">CSS</span>
+    <span class="chip">Tailwind CSS</span><span class="chip">JavaScript</span>
+    <span class="chip">TypeScript</span><span class="chip">React</span>
+    <span class="chip">Next.js</span><span class="chip">Node.js</span>
+    <span class="chip">Git / GitHub</span><span class="chip">VS Code</span>
+    <span class="chip">Vercel</span>
+  </div>
+  <p class="muted" style="margin-top:6px;font-size:8.8pt">
+    <strong style="color:#1c1714">Soft skills:</strong>
+    Teamwork · Problem solving · Attention to detail · Fast learning · Clear communication · Time management
+  </p>
+
+  <h2>Projects</h2>
+
+  <div class="job">
+    <div class="job-head">
+      <span class="job-title">Online Shop</span>
+      <span class="job-meta">2026</span>
+    </div>
+    <p>A storefront built on a public API: product listing and filtering, product details,
+       and full cart management — add, remove and change item quantities.</p>
+    <div class="stack">Next.js · TypeScript · Tailwind · REST API</div>
+    <a href="https://github.com/mahdiiehka/shop--app">github.com/mahdiiehka/shop--app</a>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <span class="job-title">Sign In &amp; Sign Up</span>
+      <span class="job-meta">2026</span>
+    </div>
+    <p>Authentication forms with client-side validation and a minimal, accessible interface.</p>
+    <div class="stack">Next.js · TypeScript · Tailwind</div>
+    <a href="https://github.com/mahdiiehka/signin-signup-app">github.com/mahdiiehka/signin-signup-app</a>
+  </div>
+
+  <h2>Experience &amp; Education</h2>
+  <div class="job">
+    <div class="job-head"><span class="job-title">First collaboration</span><span class="job-meta">Before university</span></div>
+    <p>Worked on a company's website — that's where the web became serious for me.</p>
+  </div>
+  <div class="job">
+    <div class="job-head"><span class="job-title">BSc Computer Engineering</span><span class="job-meta">Final year</span></div>
+    <p>Alongside my studies, learned React and the front-end ecosystem through projects.</p>
+  </div>
+  <div class="job">
+    <div class="job-head"><span class="job-title">Real product</span><span class="job-meta">Today</span></div>
+    <p>Building a product for a company, working with real constraints, feedback and detail.</p>
+  </div>
+
+  <div class="foot">
+    <span>Mahdieh Kargar — Resume</span>
+    <span>mahdiehkargar.ir</span>
+  </div>
+</section>
+
+<!-- ============ PERSIAN ============ -->
+<section class="page" lang="fa" dir="rtl">
+  <h1 class="name">مهدیه کارگر</h1>
+  <div class="role">توسعه‌دهنده فرانت‌اند</div>
+  <div class="contact">
+    <span dir="ltr">mahdiehkargar410540@gmail.com</span>
+    <span>ایران</span>
+    <span dir="ltr">github.com/mahdiiehka</span>
+    <span dir="ltr">instagram.com/mahdiiehka_</span>
+    <span dir="ltr">t.me/Mahdiieh_ka</span>
+  </div>
+  <div class="rule"></div>
+
+  <h2>درباره من</h2>
+  <p>
+    فرانت‌اند با تمرکز روی React، Next.js و TypeScript. تجربهٔ ساخت فروشگاه اینترنتی متصل به API،
+    فرم‌های احراز هویت و وب‌سایت شرکتی را دارم؛ با تمرکز همیشگی روی عملکرد، دسترس‌پذیری و
+    جزئیات رابط کاربری.
+  </p>
+
+  <h2>مهارت‌ها</h2>
+  <div class="chips">
+    <span class="chip">HTML</span><span class="chip">CSS</span>
+    <span class="chip">Tailwind CSS</span><span class="chip">JavaScript</span>
+    <span class="chip">TypeScript</span><span class="chip">React</span>
+    <span class="chip">Next.js</span><span class="chip">Node.js</span>
+    <span class="chip">Git / GitHub</span><span class="chip">VS Code</span>
+    <span class="chip">Vercel</span>
+  </div>
+  <p class="muted" style="margin-top:6px;font-size:8.8pt">
+    <strong style="color:#1c1714">مهارت‌های نرم:</strong>
+    کار تیمی · حل مسئله · دقت به جزئیات · یادگیری سریع · ارتباط شفاف · مدیریت زمان
+  </p>
+
+  <h2>پروژه‌ها</h2>
+
+  <div class="job">
+    <div class="job-head">
+      <span class="job-title">فروشگاه آنلاین</span>
+      <span class="job-meta">۱۴۰۵</span>
+    </div>
+    <p>فروشگاه اینترنتی با API عمومی: دریافت و نمایش محصولات، فیلتر، صفحهٔ جزئیات کالا
+       و مدیریت سبد خرید شامل افزودن، حذف و تغییر تعداد.</p>
+    <div class="stack">Next.js · TypeScript · Tailwind · REST API</div>
+    <a dir="ltr" href="https://github.com/mahdiiehka/shop--app">github.com/mahdiiehka/shop--app</a>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <span class="job-title">ورود و ثبت‌نام</span>
+      <span class="job-meta">۱۴۰۵</span>
+    </div>
+    <p>فرم‌های احراز هویت با اعتبارسنجی سمت کلاینت و رابطی ساده و دسترس‌پذیر.</p>
+    <div class="stack">Next.js · TypeScript · Tailwind</div>
+    <a dir="ltr" href="https://github.com/mahdiiehka/signin-signup-app">github.com/mahdiiehka/signin-signup-app</a>
+  </div>
+
+  <h2>سابقه و تحصیلات</h2>
+  <div class="job">
+    <div class="job-head"><span class="job-title">اولین همکاری</span><span class="job-meta">قبل از دانشگاه</span></div>
+    <p>کار روی وب‌سایت یک شرکت؛ همان‌جا بود که دنیای وب برایم جدی شد.</p>
+  </div>
+  <div class="job">
+    <div class="job-head"><span class="job-title">کارشناسی مهندسی کامپیوتر</span><span class="job-meta">سال آخر</span></div>
+    <p>در کنار تحصیل، React و اکوسیستم فرانت‌اند را با پروژه‌های عملی یاد گرفتم.</p>
+  </div>
+  <div class="job">
+    <div class="job-head"><span class="job-title">محصول واقعی</span><span class="job-meta">امروز</span></div>
+    <p>کار روی محصول یک شرکت، با محدودیت‌ها، بازخورد و جزئیات واقعی.</p>
+  </div>
+
+  <div class="foot">
+    <span>مهدیه کارگر — رزومه</span>
+    <span dir="ltr">mahdiehkargar.ir</span>
+  </div>
+</section>
+
+</body>
+</html>

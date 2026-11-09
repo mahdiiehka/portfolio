@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="600" height="750" role="img" aria-label="Illustrated workspace">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7EEE1"/>
+      <stop offset="1" stop-color="#EADBC6"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#241B17"/>
+      <stop offset="1" stop-color="#352621"/>
+    </linearGradient>
+    <linearGradient id="desk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8D7BE"/>
+      <stop offset="1" stop-color="#DCC6A7"/>
+    </linearGradient>
+    <linearGradient id="pot" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C08A63"/>
+      <stop offset="1" stop-color="#9E6B47"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="750" fill="url(#bg)"/>
+  <circle cx="520" cy="110" r="150" fill="#6E1423" opacity="0.10"/>
+  <circle cx="70" cy="660" r="120" fill="#6E1423" opacity="0.06"/>
+
+  <!-- نور پنجره -->
+  <path d="M0 0h600v330c-120 60-380 70-600 10Z" fill="#FFF9EF" opacity="0.45"/>
+
+  <!-- دیوار/میز -->
+  <rect x="0" y="560" width="600" height="190" fill="url(#desk)"/>
+  <path d="M0 560h600" stroke="#CDB795" stroke-width="2"/>
+
+  <!-- سایه‌ها -->
+  <ellipse cx="300" cy="596" rx="210" ry="22" fill="#5A3A22" opacity="0.14"/>
+  <ellipse cx="465" cy="592" rx="60" ry="12" fill="#5A3A22" opacity="0.12"/>
+
+  <!-- لپ‌تاپ -->
+  <rect x="140" y="300" width="320" height="230" rx="12" fill="#2A201B"/>
+  <rect x="154" y="314" width="292" height="202" rx="6" fill="url(#screen)"/>
+  <g stroke-linecap="round">
+    <rect x="176" y="336" width="86" height="7" rx="3.5" fill="#D9A7A7" stroke="none"/>
+    <rect x="176" y="358" width="150" height="5" rx="2.5" fill="#E8D6B8" opacity="0.65" stroke="none"/>
+    <rect x="192" y="374" width="110" height="5" rx="2.5" fill="#8FA37E" opacity="0.8" stroke="none"/>
+    <rect x="192" y="390" width="132" height="5" rx="2.5" fill="#E8D6B8" opacity="0.45" stroke="none"/>
+    <rect x="176" y="410" width="40" height="5" rx="2.5" fill="#C9B38A" opacity="0.8" stroke="none"/>
+    <rect x="176" y="430" width="170" height="5" rx="2.5" fill="#E8D6B8" opacity="0.55" stroke="none"/>
+    <rect x="192" y="446" width="96" height="5" rx="2.5" fill="#D9A7A7" opacity="0.7" stroke="none"/>
+    <rect x="176" y="466" width="120" height="5" rx="2.5" fill="#E8D6B8" opacity="0.4" stroke="none"/>
+    <rect x="176" y="486" width="60" height="5" rx="2.5" fill="#8FA37E" opacity="0.7" stroke="none"/>
+    <!-- نقطه‌های کد -->
+    <circle cx="368" cy="340" r="3" fill="#D9A7A7" stroke="none"/>
+    <circle cx="380" cy="340" r="3" fill="#C9B38A" stroke="none"/>
+    <circle cx="392" cy="340" r="3" fill="#8FA37E" stroke="none"/>
+  </g>
+
+  <!-- بدنه پایین لپ‌تاپ -->
+  <path d="M110 560l40-30h300l40 30Z" fill="#C9B79D"/>
+  <rect x="110" y="556" width="380" height="14" rx="7" fill="#D8C6AA"/>
+  <rect x="250" y="540" width="100" height="8" rx="4" fill="#B7A386"/>
+
+  <!-- ماگ -->
+  <g>
+    <path d="M420 486h74v58a26 26 0 0 1-26 26h-22a26 26 0 0 1-26-26v-58Z" fill="#FBF5EA" stroke="#D8C6AC" stroke-width="2"/>
+    <path d="M494 500h12a16 16 0 0 1 0 32h-12" fill="none" stroke="#D3BFA2" stroke-width="7"/>
+    <ellipse cx="457" cy="486" rx="37" ry="7" fill="#F1E5D2" stroke="#D8C6AC" stroke-width="2"/>
+    <text x="457" y="525" text-anchor="middle" font-family="'Courier New', monospace" font-size="17" font-weight="bold" fill="#6E1423">&lt;/&gt;</text>
+  </g>
+
+  <!-- گیاه -->
+  <g>
+    <path d="M78 470c-26-30-22-62-6-88 20 22 26 54 6 88Z" fill="#6F7A52"/>
+    <path d="M96 468c-6-38 10-66 36-82 10 30-2 62-36 82Z" fill="#7C885C"/>
+    <path d="M112 476c26-24 54-28 78-16-16 26-46 34-78 16Z" fill="#5E6A45"/>
+    <path d="M96 488c-24-8-44-4-58 10 18 16 40 16 58-10Z" fill="#6F7A52"/>
+    <path d="M70 492h74l-9 66a14 14 0 0 1-14 12H93a14 14 0 0 1-14-12l-9-66Z" fill="url(#pot)"/>
+    <rect x="64" y="484" width="86" height="16" rx="8" fill="#C99771"/>
+  </g>
+
+  <!-- دفتر و قلم -->
+  <g>
+    <rect x="392" y="648" width="130" height="52" rx="8" fill="#FBF5EA" stroke="#D8C6AC" stroke-width="2" transform="rotate(-6 457 674)"/>
+    <rect x="404" y="662" width="82" height="5" rx="2.5" fill="#C9B38A" transform="rotate(-6 457 674)"/>
+    <rect x="404" y="674" width="58" height="5" rx="2.5" fill="#D9A7A7" transform="rotate(-6 457 674)"/>
+    <rect x="150" y="646" width="8" height="70" rx="4" fill="#6E1423" transform="rotate(14 154 681)"/>
+    <path d="M150 716l4 12 4-12Z" fill="#3A2A22" transform="rotate(14 154 681)"/>
+  </g>
+
+  <!-- تزئینات -->
+  <path d="M470 190l6 16 16 6-16 6-6 16-6-16-16-6 16-6 6-16Z" fill="#6E1423" opacity="0.35"/>
+  <circle cx="120" cy="200" r="5" fill="#6E1423" opacity="0.25"/>
+  <circle cx="420" cy="300" r="3.5" fill="#6E1423" opacity="0.2"/>
+</svg>

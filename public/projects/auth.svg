@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Sign in and sign up app preview">
+  <defs>
+    <linearGradient id="authBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F6F0E4"/>
+      <stop offset="1" stop-color="#EDE2CF"/>
+    </linearGradient>
+    <linearGradient id="authPanel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EADFC0"/>
+      <stop offset="1" stop-color="#D8C49E"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#authBg)"/>
+  <circle cx="120" cy="60" r="150" fill="#EADFC0" opacity="0.5"/>
+  <circle cx="720" cy="460" r="140" fill="#E2D5BD" opacity="0.5"/>
+
+  <rect x="56" y="46" width="688" height="408" rx="20" fill="#FCF8EF" stroke="#E2D5BD" stroke-width="1.5"/>
+  <path d="M56 88h688" stroke="#E2D5BD" stroke-width="1.5"/>
+  <circle cx="82" cy="67" r="4" fill="#CBBBA0"/>
+  <circle cx="96" cy="67" r="4" fill="#CBBBA0"/>
+  <circle cx="110" cy="67" r="4" fill="#CBBBA0"/>
+  <rect x="132" y="59" width="210" height="16" rx="8" fill="#EFE7D8"/>
+
+  <!-- auth card -->
+  <rect x="120" y="126" width="560" height="292" rx="18" fill="#FFFFFF" stroke="#E8DECC" stroke-width="1.5"/>
+
+  <!-- form side -->
+  <text x="156" y="176" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#241A12">Welcome back</text>
+  <text x="156" y="198" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#8A7A64">Sign in to continue to your account.</text>
+
+  <text x="156" y="234" font-family="Helvetica, Arial, sans-serif" font-size="8" letter-spacing="1" fill="#8A7A64">EMAIL</text>
+  <rect x="156" y="242" width="240" height="34" rx="9" fill="#F7F2E8" stroke="#E8DECC"/>
+  <text x="168" y="263" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#B0A08A">you@example.com</text>
+
+  <text x="156" y="300" font-family="Helvetica, Arial, sans-serif" font-size="8" letter-spacing="1" fill="#8A7A64">PASSWORD</text>
+  <rect x="156" y="308" width="240" height="34" rx="9" fill="#F7F2E8" stroke="#E8DECC"/>
+  <circle cx="172" cy="325" r="2" fill="#B0A08A"/>
+  <circle cx="184" cy="325" r="2" fill="#B0A08A"/>
+  <circle cx="196" cy="325" r="2" fill="#B0A08A"/>
+  <circle cx="208" cy="325" r="2" fill="#B0A08A"/>
+  <circle cx="220" cy="325" r="2" fill="#B0A08A"/>
+
+  <rect x="156" y="360" width="240" height="34" rx="17" fill="#241A12"/>
+  <text x="252" y="381" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#FBF8F2">Sign in</text>
+
+  <text x="156" y="412" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#8A7A64">No account?</text>
+  <text x="218" y="412" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#96702A">Create one</text>
+
+  <!-- decorative side -->
+  <path d="M404 126v292" stroke="#EFE7D8" stroke-width="1.5"/>
+  <rect x="404" y="126" width="276" height="292" rx="0" fill="url(#authPanel)" opacity="0.55"/>
+  <circle cx="542" cy="250" r="62" fill="#FCF8EF" opacity="0.55"/>
+  <circle cx="542" cy="250" r="40" fill="#FCF8EF" opacity="0.75"/>
+  <path d="M528 250h28M542 236v28" stroke="#96702A" stroke-width="2" stroke-linecap="round"/>
+  <text x="542" y="352" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="15" fill="#241A12" opacity="0.7">Simple. Secure. Yours.</text>
+</svg>

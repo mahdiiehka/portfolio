@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Portfolio preview">
+  <defs>
+    <linearGradient id="pfBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F6F0E4"/>
+      <stop offset="1" stop-color="#EEE4D2"/>
+    </linearGradient>
+    <linearGradient id="pfCard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EADFC0"/>
+      <stop offset="1" stop-color="#DDC9A6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#pfBg)"/>
+  <circle cx="120" cy="60" r="150" fill="#EADFC0" opacity="0.5"/>
+  <circle cx="720" cy="450" r="140" fill="#E2D5BD" opacity="0.5"/>
+
+  <rect x="56" y="46" width="688" height="408" rx="20" fill="#FCF8EF" stroke="#E2D5BD" stroke-width="1.5"/>
+  <path d="M56 88h688" stroke="#E2D5BD" stroke-width="1.5"/>
+  <circle cx="82" cy="67" r="4" fill="#CBBBA0"/>
+  <circle cx="96" cy="67" r="4" fill="#CBBBA0"/>
+  <circle cx="110" cy="67" r="4" fill="#CBBBA0"/>
+  <rect x="132" y="59" width="210" height="16" rx="8" fill="#EFE7D8"/>
+
+  <text x="712" y="121" text-anchor="end" font-family="'Courier New', monospace" font-size="11" letter-spacing="2" fill="#241A12">MAHDIEH KARGAR</text>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#8A7A64">
+    <text x="420" y="121">Home</text>
+    <text x="458" y="121">About</text>
+    <text x="496" y="121">Work</text>
+    <text x="530" y="121">Contact</text>
+  </g>
+
+  <rect x="92" y="150" width="232" height="270" rx="22" fill="url(#pfCard)" stroke="#E2D5BD"/>
+  <circle cx="150" cy="210" r="46" fill="#FCF8EF" opacity="0.35"/>
+  <text x="208" y="330" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="96" fill="#241A12" opacity="0.16">M</text>
+  <rect x="108" y="384" width="118" height="12" rx="6" fill="#FCF8EF" opacity="0.65"/>
+  <rect x="108" y="402" width="76" height="8" rx="4" fill="#FCF8EF" opacity="0.45"/>
+
+  <text x="368" y="190" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.5" fill="#96702A">01 — PORTFOLIO</text>
+  <text x="366" y="240" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#241A12">Hi, I'm</text>
+  <text x="366" y="302" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="60" fill="#96702A">Mahdieh</text>
+  <text x="366" y="356" font-family="Georgia, 'Times New Roman', serif" font-size="60" fill="#241A12">Kargar.</text>
+  <rect x="366" y="378" width="40" height="2" fill="#E2D5BD"/>
+  <text x="416" y="384" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#8A7A64">Creative Web Design</text>
+
+  <rect x="366" y="410" width="96" height="28" rx="14" fill="#241A12"/>
+  <text x="392" y="428" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#FBF8F2">View work</text>
+  <rect x="472" y="410" width="86" height="28" rx="14" fill="none" stroke="#E2D5BD"/>
+  <text x="492" y="428" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#241A12">About me</text>
+
+  <path d="M92 446h616" stroke="#E2D5BD"/>
+  <g font-family="'Courier New', monospace" font-size="8" letter-spacing="1.5" fill="#B0A08A">
+    <text x="92" y="462">REACT</text>
+    <text x="150" y="462">NEXT.JS</text>
+    <text x="215" y="462">TYPESCRIPT</text>
+    <text x="300" y="462">TAILWIND CSS</text>
+  </g>
+</svg>
